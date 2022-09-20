@@ -1,0 +1,137 @@
+.box-of-todos-lists {
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: #25273c;
+  color: white;
+  margin: 20px auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-top: 10px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #4ea8de;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #5e60ce;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+.newtask {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.checking-icon,
+.deletingicon,
+.unchecking-icon {
+  cursor: pointer;
+}
+.checking-icon,
+.unchecking-icon {
+  color: deeppink;
+  background-color: deeppink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.checking-icon svg {
+  color: deeppink;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.deletingicon svg {
+  color: deeppink;
+}
+.test-text,
+.test-text-completed {
+  width: 350px;
+  text-transform: capitalize;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 10px;
+  color: darkgray;
+  font-weight: bolder;
+  text-align: center;
+}
+/* .............. */
+
+.test-text::-webkit-scrollbar {
+  height: 5px;
+}
+.test-text::-webkit-scrollbar-track {
+  background-color: #4ea8de;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.test-text::-webkit-scrollbar-thumb {
+  background-color: #5e60ce;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.test-text-completed::-webkit-scrollbar {
+  height: 5px;
+}
+.test-text-completed::-webkit-scrollbar-track {
+  background-color: #4ea8de;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.test-text-completed::-webkit-scrollbar-thumb {
+  background-color: #5e60ce;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* .............. */
+.unchecking-icon {
+  background-color: transparent;
+}
+.test-text-completed {
+  text-decoration: line-through;
+  color: darkcyan;
+  font-weight: bolder;
+}
+.empty-todo {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 30px;
+}
+.btn-holder {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
